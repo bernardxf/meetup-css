@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  outline: none;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  color: #242424;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  width: 100%; }
+
+section {
+  align-items: center;
+  background: linear-gradient(#d52e3f, #7d0e19);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: fixed;
+  width: 100vw; }
+  section .texto {
+    text-align: center; }
+    section .texto h1 {
+      background: linear-gradient(7deg, #fcedd8 50%, #efa032 0);
+      -webkit-background-clip: text;
+      color: transparent;
+      display: block;
+      font-family: "Monoton", cursive;
+      font-size: 100px;
+      font-weight: normal; }
+    section .texto h2 {
+      color: #fcedd8;
+      display: block;
+      font-family: "Niconne", cursive;
+      font-size: 140px;
+      margin: 0 0 50px;
+      position: relative;
+      text-shadow: 5px 5px 0px #eb452b, 10px 10px 0px #efa032, 15px 15px 0px #46b59b, 20px 20px 0px #017e7f, 25px 25px 0px #052939; }
+      section .texto h2:before {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.8);
+        color: #242424;
+        content: 'DE';
+        display: inline-block;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        left: 50%;
+        padding: 8px 16px;
+        position: absolute;
+        text-shadow: none;
+        top: -30px;
+        transform: translateX(-50%) rotate(-30deg); }
+
+.btn {
+  animation: float 6s ease-in-out infinite;
+  border: 3px solid #fcedd8;
+  border-radius: 12px;
+  color: #fcedd8;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding: 15px 30px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all ease-in-out .35s; }
+  .btn:hover {
+    background-color: #fcedd8;
+    color: #eb452b; }
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 40px;
+  position: fixed;
+  min-width: 100vw; }
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px); }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px); }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px); } }
+
+/*# sourceMappingURL=main.css.map */
