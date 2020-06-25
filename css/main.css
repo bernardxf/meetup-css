@@ -1,3 +1,8 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
 * {
   margin: 0;
   outline: none;
@@ -93,5 +98,16 @@ section {
   100% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     transform: translatey(0px); } }
+.box-content {
+  border: 3px solid #000;
+  display: block;
+  height: 600px;
+  overflow: hidden;
+  width: 800px; }
+  .box-content .box {
+    border: 1px solid #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */
